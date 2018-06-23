@@ -1177,9 +1177,13 @@
   margin-top: 40px;
 }
 
+/* fixed margin issues with skills below */
+
 .col-sm-3 {
-  margin: 15px;
-  /*text-align: center;*/
+  margin: 20px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
 }
 
 
