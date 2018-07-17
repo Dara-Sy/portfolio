@@ -1477,27 +1477,52 @@
 
     /* About Me */
 
+    .blacklink:link {
+    text-decoration: none;
+    color: black;
+    }
+
+
+    .blacklink:visited {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .blacklink:hover {
+        text-decoration: none;
+        transition: .5s ease;
+        color: #aaa;
+        /*font-weight: normal;*/
+    }
+
+    .blacklink:active {
+        text-decoration: none;
+        transition: .5s ease;
+        color: #aaa;
+        /*font-weight: normal;*/
+    }
 
     .jumplink:link {
     text-decoration: none;
-    color: #aaa;
+    color: #000;
     }
+
 
     .jumplink:visited {
         text-decoration: none;
-        color: #aaa;
+        color: #000;
     }
 
     .jumplink:hover {
         text-decoration: none;
         transition: .5s ease;
-        color: #000;
+        color: #aaa;
     }
 
     .jumplink:active {
         text-decoration: none;
         transition: .5s ease;
-        color: #000;
+        color: #aaa;
     }
 
     .jumplink1:link {
