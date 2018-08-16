@@ -56,6 +56,19 @@
 		box-sizing: border-box;
 	}
 
+/* Mockups */
+.mockup {
+  width: 350px;
+  /*float: left;*/
+  /*height: 200px;*/
+}
+
+.mockup-space {
+  justify-content: space-between;
+  /*margin-left: 25px;*/
+  text-align: center;
+}
+
 /* Hover Intro */
 /*#me .pic:hover */
 #me .imghover {
@@ -1584,8 +1597,13 @@
 
 		/* Section/Article */
 
+    .skills-section {
+      position: relative;
+      top: 2em;
+    }
+
 			header {
-				margin: 0 0 1.5em 0;
+				margin: 0 0 2em 0;
 			}
 
 				header > p {
