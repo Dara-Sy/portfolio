@@ -13,12 +13,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- this imports custom hedgehog icon -->
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/b2e3348ec3/UntitledProject/style.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/b2e3348ec3/UntitledProject/style.css">
+  <script defer src="https://i.icomoon.io/public/temp/b2e3348ec3/UntitledProject/svgxuse.js"></script>
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   <!-- this changes the webpage icon in the title tab -->
-  <link rel="shortcut icon" href="http://res.cloudinary.com/daracell/image/upload/v1529719368/tinypikachu.gif" type="image/x-icon" />
+  <!-- <link rel="shortcut icon" href="http://res.cloudinary.com/daracell/image/upload/v1529719368/tinypikachu.gif" type="image/x-icon" /> -->
+  <link href="images/logo-gray.png" class="tinyicon" rel="shortcut icon" />
 </head>
 
 <body>
@@ -28,9 +33,10 @@
     <nav id="nav">
       <a href="#me" class="icon fa-home active"><span>Home</span></a>
       <a href="#about" class="icon fa-anchor"><span>About</span></a>
-      <a href="#work" class="icon fa-folder"><span>Work</span></a>
-      <a href="https://github.com/Dara-Sy" target="_blank" class="icon fa-github"><span>Github</span></a>
-      <a href="https://www.linkedin.com/in/dara-sy/" target="_blank" class="icon fa-linkedin"><span>LinkedIn</span></a>
+      <!-- <a href="#about" class="icon-hedgehog-w"><span>About</span></a> -->
+      <a href="#work" class="icon fa-code"><span>Work</span></a>
+      <!-- <a href="#work" class="icon fa-magic"><span>Work</span></a> -->
+      <i class="fas fa-palette"></i>
       <a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
     </nav>
     <!-- Main -->
@@ -38,8 +44,10 @@
       <!-- Me -->
       <article id="me" class="panel">
         <header>
-          <h1>DARA SY</h1>
-          <p>Web Developer & Designer</p>
+          <h1>DARA SY <span class="icon-hedgehog-t"></span></h1>
+          <p>Frontend Web Developer
+            <br>Imaginative Designer
+            <br>Artist & Composer</p>
         </header>
         <a href="#work" class="jumplink pic">
                   <span class="arrow icon fa-chevron-right"><span>See my work</span></span>
@@ -49,7 +57,7 @@
       <!-- About -->
       <article id="about" class="panel">
         <header>
-          <h2>About Me</h2>
+          <h2>About Me <span class="icon-hedgehog-t"></h2>
         </header>
         <p>
           Hi! My name is Dara. I graduated from Queens College with a B.A. in Economics, Cum Laude on September 2017. I come from a background in marketing where I operated brand and email campaigns of over 1.8 million contacts. During my time at Fullbeauty Brands, there was a lot of cross collaboration with the marketing and web development teams. The design and development of the company’s websites and daily emails drew my interest to web development.
@@ -65,7 +73,7 @@
       <!-- Work -->
       <article id="work" class="panel">
         <header>
-          <h2>Projects</h2>
+          <h2>Projects <span class="icon-hedgehog-t"></h2>
         </header>
         <p>
           Here are some of the projects that I created. I am excited to learn from and build many more!
@@ -254,6 +262,11 @@
     </div>
     <!-- Footer -->
     <div id="footer">
+      <ul class="social-links">
+        <li><a href="https://www.thetravelaesthetics.com/" target="_blank"><span class="icon fa-instagram"></span></a></li>
+        <li><a href="https://github.com/Dara-Sy" target="_blank"><span class="icon fa-github"></span></a></li>
+        <li><a href="https://www.linkedin.com/in/dara-sy/" target="_blank"><span class="icon fa-linkedin"></span></a></li>
+      </ul>
       <ul class="copyright">
         <li>✿ Dara Sy's Portfolio</li>
       </ul>
